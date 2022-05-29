@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.bg-half {
+    height: 100%;
+    background: rgb(62, 113, 255);
+    background: linear-gradient(130deg, rgb(8, 0, 117) 0%, rgb(243, 113, 81) 100%);
+}
+
+.card {
+    height: 70vh;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card-body {
+    transform: translateY(-8%);
+}
+
+.u-mail-place {
+    position: relative;
+    text-align: left;
+    top: 50%;
+}
+
+
+/* hide-show pwd */
+.bi-eye-fill,
+.bi-eye-slash-fill {
+    font-size: 1.5em;
+    position: relative;
+    top: -1.8em;
+    left: 43%;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.circle i {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.btn-lg {
+    background-color: #f06154;
+    color: #fff;
+}
+
+.btn-lg:hover {
+    background-color: #e02311;
+    color: #fff;
+}
+
+/* social media */
+.fab {
+    color: #000;
+}
+
+.fa-facebook-f:hover {
+    color: #457cf3;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-google:hover {
+    color: #f06154;
+}
+
+.media {
+    font-size: 1.5em;
+}
+
+/* input box */
+/* transparent input box with bottom border */
+.form-control {
+    border: none;
+    border-bottom: 3px solid rgba(240, 99, 86, 0.5);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+/* transparent input box in focus with bottom border with no outline*/
+.form-control:focus {
+    border-bottom: 3px solid rgba(240, 99, 86, 1);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.form-control input {
+    outline: none !important;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.rdr-f-r {
+    color: #f06154 !important;
+}
+
+.rdr-f-r:hover {
+    color: #e02311 !important;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9e6e6;
+}
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.card{
+    margin: 5px 0 15% 12% !important;
+    height: 70vh !important;
+    width: 25vw !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+}
+
+.navbar{
+    height: 10vh;
+    background-color: #000000 !important;
+}
+.navbar-brand{
+    color: gold;
+    text-decoration: none !important;
+    font-family: 'Lancelot', cursive;
+}
+.navbar-brand:hover{
+    color: gold !important;
+}
+.srch{
+    color: gold !important;
+}
+.container-fluid{
+    padding: 0 5% !important;
+}
+.form-control::placeholder{
+    padding: 2% !important;
+    height: 20px !important;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    top: 13px;
+    margin: 10px;
+}
+.menu span{
+    background-color: rgb(255, 182, 24);
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    display: block;
+    left: 0;
+    z-index: 1;
+    margin-bottom: 10px;
+}
