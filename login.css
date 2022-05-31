@@ -9,7 +9,7 @@ body {
 .bg-half {
     height: 100%;
     background: rgb(62, 113, 255);
-    background: linear-gradient(130deg, rgb(8, 0, 117) 0%, rgb(243, 113, 81) 100%);
+    background: linear-gradient(130deg, #E9D5CA 0%, #252447 100%);
 }
 
 .card {
